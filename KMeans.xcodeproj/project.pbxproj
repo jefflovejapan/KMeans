@@ -14,6 +14,10 @@
 		1F4D9668247443E300C81DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D9667247443E300C81DE3 /* Assets.xcassets */; };
 		1F4D966B247443E300C81DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D9669247443E300C81DE3 /* LaunchScreen.storyboard */; };
 		1F4D9676247443E300C81DE3 /* KMeansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D9675247443E300C81DE3 /* KMeansTests.swift */; };
+		1F4D96812474443300C81DE3 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D96802474443300C81DE3 /* moon.png */; };
+		1F4D968524745C3400C81DE3 /* yard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D968224745C3400C81DE3 /* yard.png */; };
+		1F4D968624745C3400C81DE3 /* ceiling.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D968324745C3400C81DE3 /* ceiling.png */; };
+		1F4D968724745C3400C81DE3 /* couch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D968424745C3400C81DE3 /* couch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		1F4D9671247443E300C81DE3 /* KMeansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMeansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4D9675247443E300C81DE3 /* KMeansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMeansTests.swift; sourceTree = "<group>"; };
 		1F4D9677247443E300C81DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4D96802474443300C81DE3 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		1F4D968224745C3400C81DE3 /* yard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yard.png; sourceTree = "<group>"; };
+		1F4D968324745C3400C81DE3 /* ceiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ceiling.png; sourceTree = "<group>"; };
+		1F4D968424745C3400C81DE3 /* couch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		1F4D965D247443E200C81DE3 /* KMeans */ = {
 			isa = PBXGroup;
 			children = (
+				1F4D968324745C3400C81DE3 /* ceiling.png */,
+				1F4D968424745C3400C81DE3 /* couch.png */,
+				1F4D968224745C3400C81DE3 /* yard.png */,
+				1F4D96802474443300C81DE3 /* moon.png */,
 				1F4D965E247443E200C81DE3 /* AppDelegate.swift */,
 				1F4D9660247443E200C81DE3 /* SceneDelegate.swift */,
 				1F4D9662247443E200C81DE3 /* ViewController.swift */,
@@ -180,6 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4D968724745C3400C81DE3 /* couch.png in Resources */,
+				1F4D96812474443300C81DE3 /* moon.png in Resources */,
+				1F4D968624745C3400C81DE3 /* ceiling.png in Resources */,
+				1F4D968524745C3400C81DE3 /* yard.png in Resources */,
 				1F4D966B247443E300C81DE3 /* LaunchScreen.storyboard in Resources */,
 				1F4D9668247443E300C81DE3 /* Assets.xcassets in Resources */,
 				1F4D9666247443E200C81DE3 /* Main.storyboard in Resources */,
@@ -365,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				INFOPLIST_FILE = KMeans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				INFOPLIST_FILE = KMeans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
